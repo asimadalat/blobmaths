@@ -83,7 +83,7 @@ root.state('zoomed')
 root.resizable(width=False, height=False)
 
 # Image for the background
-bg = PhotoImage(file="gamebg.png")
+bg = PhotoImage(file="assets/gamebg.png")
 label1 = Label(root, image=bg)
 label1.place(x=0, y=0)
 
@@ -118,7 +118,7 @@ scrambledWord = Label(
 scrambledWord.pack(pady=360, ipadx=10, ipady=10)
 
 
-rounded_rec = PhotoImage(file="rectrounded.png")
+rounded_rec = PhotoImage(file="assets/rectrounded.png")
 rect = Label(
     appFrame,
     image=rounded_rec,
