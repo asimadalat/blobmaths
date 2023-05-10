@@ -61,7 +61,7 @@ def main():
 
     # RIGHT
 
-    side_image = PhotoImage(file="loginbg.png")
+    side_image = PhotoImage(file="assets/loginbg.png")
     side = Label(
         root,
         image=side_image,
@@ -73,7 +73,7 @@ def main():
 
     # LEFT
 
-    plain = PhotoImage(file="plain.png")
+    plain = PhotoImage(file="assets/plain.png")
     plane = Label(
         root,
         image=plain,
