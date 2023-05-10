@@ -25,7 +25,7 @@ appFrame = Frame(
 appFrame.place(x=0, y=0)
 
 # Image on the right
-loading_image = PhotoImage(file="loadingimg.png")
+loading_image = PhotoImage(file="assets/loadingimg.png")
 loading = Label(
     appFrame,
     image=loading_image,
@@ -53,8 +53,8 @@ status = Label(
 )
 status.place(x=10, y=315, width=220)
 
-dot1 = PhotoImage(file='dot1.png')
-dot2 = PhotoImage(file='dot2.png')
+dot1 = PhotoImage(file='assets/dot1.png')
+dot2 = PhotoImage(file='assets/dot2.png')
 
 for i in range(5):
     if i == 1:
