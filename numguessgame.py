@@ -55,7 +55,7 @@ root.state('zoomed')
 root.resizable(width=False, height=False)
 
 # Image for the background
-bg = PhotoImage(file="gamebg.png")
+bg = PhotoImage(file="assets/gamebg.png")
 label1 = Label(root, image=bg)
 label1.place(x=0, y=0)
 
