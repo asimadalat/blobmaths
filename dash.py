@@ -17,7 +17,7 @@ sidebar = Frame(root, bg='#000034')#
 sidebar.place(x=0, y=0, width=400, height=1057)
 
 
-avatar_image = PhotoImage(file="avatar.png")
+avatar_image = PhotoImage(file="assets/avatar.png")
 logo = Label(
     sidebar,
     image=avatar_image,
@@ -35,7 +35,7 @@ name = Label(
 name.place(x=110, y=400)
 
 
-dash_icon = PhotoImage(file="dashicon.png")
+dash_icon = PhotoImage(file="assets/dashicon.png")
 dash = Label(
     sidebar,
     image=dash_icon,
@@ -55,7 +55,7 @@ dash_button = Button(
 )
 dash_button.place(x=120, y=520)
 
-manage_icon = PhotoImage(file="manageicon.png")
+manage_icon = PhotoImage(file="assets/manageicon.png")
 manage = Label(
     sidebar,
     image=manage_icon,
@@ -75,7 +75,7 @@ manage_button = Button(
 )
 manage_button.place(x=120, y=600)
 
-cog_icon = PhotoImage(file="cogicon.png")
+cog_icon = PhotoImage(file="assets/cogicon.png")
 cog = Label(
     sidebar,
     image=cog_icon,
@@ -95,7 +95,7 @@ cog_button = Button(
 )
 cog_button.place(x=120, y=680)
 
-exit_icon = PhotoImage(file="exiticon.png")
+exit_icon = PhotoImage(file="assets/exiticon.png")
 exited = Label(
     sidebar,
     image=exit_icon,
@@ -225,7 +225,7 @@ frame4_data = Label(
 frame4_data.place(x=110, y=70)
 
 
-pie_chart = PhotoImage(file="piechart.png")
+pie_chart = PhotoImage(file="assets/piechart.png")
 pie = Label(
     frame1,
     image=pie_chart,
@@ -233,7 +233,7 @@ pie = Label(
 )
 pie.place(x=830, y=35)
 
-bar_chart = PhotoImage(file="barchart.png")
+bar_chart = PhotoImage(file="assets/barchart.png")
 bar = Label(
     frame1,
     image=bar_chart,
